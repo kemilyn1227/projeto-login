@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/*paleta de cores*
+217050
+8FF2CB
+
+42705E
+37BD87
+*/
+
+:root{
+    
+    --cor01: #8FF2CB;
+    --cor02: #46F0AC;
+    --cor03: #42705E;
+    --cor04: #37BD87;
+}
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--cor04);
+}
+div#imagem{
+    background-image: url(../imagens/pexels-oleksandr-tiupa-192136.jpg);
+
+    height: 250px;
+    margin-top: 40px;
+    border-radius: 20px 20px 0px 0px;
+    
+    
+    
+}
+
+
+section{
+    background-color: white;
+    width:250px;
+    height: 90vh;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    
+
+}
+h1{
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+    font-size: 12px;
+}
+
+label{
+    background-color:#42705E;
+
+
+    
+}
+
+input{
+    background-color: #8FF2CB;
+    border: none;
+    max-width: 200px;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    margin-top: 10px;
+    height: 30px;
+}
+input.enviar {
+    background-color: var(--cor03);
+    color: #8FF2CB;
+    border-radius: 10px;
+    width: 30em;
+}
+
